@@ -1,7 +1,6 @@
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: master
-  language: generic
+#.travis.yml
+
+language: generic
+branches:
+  only:
+    - master
