@@ -1,0 +1,6 @@
+#.travis.yml
+
+language: generic
+branches:
+  only:
+    - master

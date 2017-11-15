@@ -1,4 +1,5 @@
 # my-page
+[![Build Status](https://travis-ci.org/thepriefy/my-page.svg?branch=master)](https://travis-ci.org/thepriefy/my-page)
 
 > A Vue.js project
 
