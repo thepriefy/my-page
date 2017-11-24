@@ -61,4 +61,8 @@ export default {
   transform: translateY(10px);
   opacity: 0;
 }
+
+  .margin-bottom-20 {
+    margin-bottom: 20px;
+  }
 </style>
