@@ -3,7 +3,9 @@
     <nav class="navbar is-transparent container">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+          <div style="width: 112px; height: 28px; border: 1px solid lightgrey; border-radius: 20px;">
+            <p class="has-text-centered">[Logo]</p>
+          </div>
         </a>
         <div class="navbar-burger burger"  @click="showNav = !showNav" :class="{ 'is-active': showNav }" data-target="navbarItems">
           <span></span>
